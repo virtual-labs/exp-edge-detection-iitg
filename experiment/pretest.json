@@ -2,37 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Edge detection finds:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Noise",
+        "b": "Boundaries",
+        "c": "Histogram peaks",
+        "d": "Blur"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Sobel is based on:",
+      "answers": {
+        "a": "1st derivative",
+        "b": "2nd derivative",
+        "c": "Fourier transform",
+        "d": "Morphology"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Canny includes:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Median filtering only",
+        "b": "Multi-stage processing",
+        "c": "Contrast stretching",
+        "d": "Template matching"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Laplacian highlights:",
+      "answers": {
+        "a": "Flat regions",
+        "b": "Rapid intensity changes",
+        "c": "Background only",
+        "d": "RGB colors"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Gradient magnitude is computed from:",
+      "answers": {
+        "a": "Mean kernels",
+        "b": "Horizontal & vertical gradients",
+        "c": "PSF",
+        "d": "Structuring element"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

@@ -1,1 +1,2 @@
-### Link your references in here
+- Rafael C. Gonzalez and Richard E. Woods, Digital Image Processing, 4th Edition.
+- OpenCV Documentation: https://docs.opencv.org

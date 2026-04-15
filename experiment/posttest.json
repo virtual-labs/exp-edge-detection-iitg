@@ -2,37 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Canny is best known for:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Fastest speed",
+        "b": "Thin, well-connected edges",
+        "c": "Blur removal",
+        "d": "Thresholding"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Sobel is sensitive to:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Noise",
+        "b": "Color hue",
+        "c": "Morphology",
+        "d": "Template size"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Laplacian often needs prior:",
+      "answers": {
+        "a": "Gamma correction",
+        "b": "Smoothing",
+        "c": "Template matching",
+        "d": "Erosion"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Prewitt differs from Sobel by:",
+      "answers": {
+        "a": "Kernel weights",
+        "b": "Domain used",
+        "c": "Not detecting edges",
+        "d": "Histogram based"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Increasing Canny thresholds causes:",
+      "answers": {
+        "a": "More edges",
+        "b": "Fewer edges",
+        "c": "No change",
+        "d": "Adds noise"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
