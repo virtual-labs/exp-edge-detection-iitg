@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Experiment 7: Edge Detection</title>
+<link rel="stylesheet" href="css/main.css">
+<script async src="https://docs.opencv.org/4.x/opencv.js"></script>
+<script src="js/main.js" defer></script>
+</head>
+<body>
+<div class="app">
+<header class="topbar">
+<div>
+<h1>Experiment 7: Edge Detection</h1>
+<p>Sobel, Prewitt, Laplacian & Canny</p>
+</div>
+<div class="status-pill">
+<span class="dot" id="statusDot"></span>
+<span id="statusText">Loading OpenCV...</span>
+</div>
+<button onclick="location.reload()">Reset</button>
+</header>
+
+<main class="layout">
+
+<aside class="sidebar">
+
+<div class="card">
+<h3>Input Image</h3>
+<input type="file" id="imageInput">
+</div>
+
+<div class="card">
+<h3>Sobel Kernel Size</h3>
+<input type="range" id="sobelSize" min="1" max="7" step="2" value="3">
+<span id="sobelVal">3</span>
+
+<h3>Laplacian Kernel Size</h3>
+<input type="range" id="lapSize" min="1" max="7" step="2" value="3">
+<span id="lapVal">3</span>
+
+<h3>Canny Threshold 1</h3>
+<input type="range" id="canny1" min="0" max="255" value="50">
+<span id="c1Val">50</span>
+
+<h3>Canny Threshold 2</h3>
+<input type="range" id="canny2" min="0" max="255" value="150">
+<span id="c2Val">150</span>
+
+</div>
+
+</aside>
+
+<section class="workspace">
+<div class="canvas-row">
+
+<div class="canvas-card">
+<h4>Original (Gray)</h4>
+<canvas id="originalCanvas"></canvas>
+</div>
+
+<div class="canvas-card">
+<h4>Sobel</h4>
+<canvas id="sobelCanvas"></canvas>
+</div>
+
+<div class="canvas-card">
+<h4>Prewitt</h4>
+<canvas id="prewittCanvas"></canvas>
+</div>
+
+<div class="canvas-card">
+<h4>Laplacian</h4>
+<canvas id="lapCanvas"></canvas>
+</div>
+
+<div class="canvas-card">
+<h4>Canny</h4>
+<canvas id="cannyCanvas"></canvas>
+</div>
+
+</div>
+</section>
+
+</main>
+</div>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>

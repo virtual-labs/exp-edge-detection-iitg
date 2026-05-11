@@ -1,0 +1,60 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Canny is best known for:",
+      "answers": {
+        "a": "Fastest speed",
+        "b": "Thin, well-connected edges",
+        "c": "Blur removal",
+        "d": "Thresholding"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Sobel is sensitive to:",
+      "answers": {
+        "a": "Noise",
+        "b": "Color hue",
+        "c": "Morphology",
+        "d": "Template size"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Laplacian often needs prior:",
+      "answers": {
+        "a": "Gamma correction",
+        "b": "Smoothing",
+        "c": "Template matching",
+        "d": "Erosion"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Prewitt differs from Sobel by:",
+      "answers": {
+        "a": "Kernel weights",
+        "b": "Domain used",
+        "c": "Not detecting edges",
+        "d": "Histogram based"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Increasing Canny thresholds causes:",
+      "answers": {
+        "a": "More edges",
+        "b": "Fewer edges",
+        "c": "No change",
+        "d": "Adds noise"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Edge detection finds:",
+      "answers": {
+        "a": "Noise",
+        "b": "Boundaries",
+        "c": "Histogram peaks",
+        "d": "Blur"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Sobel is based on:",
+      "answers": {
+        "a": "1st derivative",
+        "b": "2nd derivative",
+        "c": "Fourier transform",
+        "d": "Morphology"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Canny includes:",
+      "answers": {
+        "a": "Median filtering only",
+        "b": "Multi-stage processing",
+        "c": "Contrast stretching",
+        "d": "Template matching"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Laplacian highlights:",
+      "answers": {
+        "a": "Flat regions",
+        "b": "Rapid intensity changes",
+        "c": "Background only",
+        "d": "RGB colors"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Gradient magnitude is computed from:",
+      "answers": {
+        "a": "Mean kernels",
+        "b": "Horizontal & vertical gradients",
+        "c": "PSF",
+        "d": "Structuring element"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
